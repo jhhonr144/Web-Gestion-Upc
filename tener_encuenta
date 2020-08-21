@@ -1,0 +1,33 @@
+curdate=dia
+curtime=hora
+uft8_uncode()=mostrartildes
+$filtroL = filter_input(INPUT_GET, 'para', FILTER_SANITIZE_SPECIAL_CHARS);
+
+$host= $_SERVER["HTTP_HOST"];
+$url= $_SERVER["REQUEST_URI"];
+echo $host."_".$url;
+$ip = $_SERVER['REMOTE_ADDR'];
+$array = array("/Gestion//","/Gestion/index.php");=array
+foreach ($array as $u => $value) {}=manejar array
+// if (!isset($_SESSION)) {
+//  SESSION_START();
+// }
+// include_once('./Modelo/Persona.php');
+// $p = new Persona(); 
+// $_SESSION['persona'] = serialize($p); 
+// $p= unserialize($_SESSION['persona']);
+//if (isset($_SESSION)) SESSION_destroy();
+date("d m Y");
+ /*
+     *curdate=dia
+     *curtime=hora
+     * uft8_encode(
+
+     *       */ 
+$bdDato='*'; 
+$bdTabla='vista';
+$bdCondicion='where estado="A" and nombre="Servicio"';
+include ($bd.'ConsultaGeneral.php');
+foreach ($Consulta as $fila) {
+readonly=""
+onkeypress="return numero(event)"
